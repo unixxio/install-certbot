@@ -105,6 +105,9 @@ chmod 755 /etc/letsencrypt/renewal-hooks/deploy/deploy.sh
 # Register at letsencrypt with information from cli.ini
 /usr/bin/certbot --quiet --non-interactive register > /dev/null 2>&1
 
+# Remove temporary folder created by Snap
+rm -rf snap
+
 # End script
 echo -e "\nCertbot from Let's Encrypt is now successfully installed. Enjoy! ;-)\n"
 exit 0
