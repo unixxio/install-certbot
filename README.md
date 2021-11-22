@@ -1,4 +1,5 @@
 # Install Certbot by Let's Encrypt
+**Last Update**: November 22, 2021
 
 This installer should work on any Debian based OS. This also includes Ubuntu. This will install Certbot using Snap Store. It will remove Certbot installed by APT if it's installed.
 
