@@ -21,6 +21,10 @@ bash <( curl -sSL https://raw.githubusercontent.com/unixxio/install-certbot/main
 * Register your e-mail address at letsencrypt
 * Automatically reload NGINX when a certificate is renewed
 
+**Important locations**
+* /etc/letsencrypt/cli.ini
+* /etc/letsencrypt/renewal-hooks/deploy/deploy.sh
+
 **Certbot Commands**
 
 Show all certificates
